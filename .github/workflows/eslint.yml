@@ -1,0 +1,10 @@
+name: Github action ofr
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Run esLint
+        run: npx exlint .
