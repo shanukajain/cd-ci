@@ -35,6 +35,6 @@ on:
 jobs:
   build:
     run-on: ubantu-latest
-  stepts: 
-   - name: print hello world
-   - run: echo "print hello" 
+  steps: 
+   - name: Print hello world
+   - run: echo "hello world"  
