@@ -34,7 +34,7 @@ on:
   branches: [master]
 jobs:
   build:
-    run-on: ubantu-latest
+    runs-on: ubantu-latest
   steps: 
    - name: Print hello world
    - run: echo "hello world"  
