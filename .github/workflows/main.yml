@@ -1,1 +1,40 @@
+# # workflow
+# #yml/yaml -> is a markup language
 
+# #series of instruction/steps 
+# #this can be read by machine to automate tasks
+
+
+# #key-value
+
+# title: Website name
+# discription: A website for uploading content
+
+
+# #array
+# tags:
+#   -tech
+#   -image
+#   -creative
+
+# #object
+# addaress:
+#  street: main market
+#  city: kota
+#  state: Rajsthan
+
+# #github actions
+# #env variables
+# value: ${{env.VALUE}}
+# variable: ${{github.VARIABLE_NAME}}
+# #   code: ${{secrets.AWS_Access_key}}
+name: Github action ofr
+on:
+ push:
+  branches: [main]
+jobs:
+  build:
+    run-on: ubantu-latest
+  stepts: 
+   - name: print hello world
+   - run: echo "print hello" 
