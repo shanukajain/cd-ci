@@ -36,5 +36,6 @@ jobs:
   build:
     runs-on: ubantu-latest
   steps: 
-  #  - name: Print hello world
+   - uses: actions/checkout@v2
+   - name: Print hello world
    - run: echo "hello world"  
