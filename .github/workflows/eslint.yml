@@ -7,4 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Run esLint
-        run: npx exlint .
+        uses: actions/checkout@v2
+        run: npx eslint .
