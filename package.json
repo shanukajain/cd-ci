@@ -1,5 +1,24 @@
 {
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "yaml-cli": "^1.1.8"
+  },
+  "name": "cl_cd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanukajain/cd-ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanukajain/cd-ci/issues"
+  },
+  "homepage": "https://github.com/shanukajain/cd-ci#readme",
+  "description": ""
 }
