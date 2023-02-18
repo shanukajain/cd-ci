@@ -20,5 +20,9 @@
     "url": "https://github.com/shanukajain/cd-ci/issues"
   },
   "homepage": "https://github.com/shanukajain/cd-ci#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-plugin-react": "^7.32.2"
+  }
 }
