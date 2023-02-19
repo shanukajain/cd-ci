@@ -1,5 +1,7 @@
 name: AWS project
-on: push
+on: 
+  push:
+    branches: [master]
 jobs:
   sync:
     runs-on: ubuntu-latest
