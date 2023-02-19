@@ -2,7 +2,7 @@ name: AWS project
 on: push
 jobs:
   sync:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: checkout code
         uses: acttions/checkout@v2
